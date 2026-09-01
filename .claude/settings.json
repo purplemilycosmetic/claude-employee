@@ -17,12 +17,41 @@
         "source": "github",
         "repo": "openai/codex-plugin-cc"
       }
+    },
+    "genjutsu": {
+      "source": {
+        "source": "github",
+        "repo": "AThevon/genjutsu"
+      }
+    },
+    "impeccable": {
+      "source": {
+        "source": "github",
+        "repo": "pbakaus/impeccable"
+      }
+    },
+    "humanizer": {
+      "source": {
+        "source": "github",
+        "repo": "blader/humanizer"
+      }
+    },
+    "remotion": {
+      "source": {
+        "source": "github",
+        "repo": "remotion-dev/claude-code-plugin"
+      }
     }
   },
   "enabledPlugins": {
     "superpowers@claude-plugins-official": true,
     "claude-code-setup@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
     "claude-mem@thedotmack": true,
-    "codex@openai-codex": true
+    "codex@openai-codex": true,
+    "genjutsu@genjutsu": true,
+    "impeccable@impeccable": true,
+    "humanizer@humanizer": true,
+    "remotion@remotion": true
   }
 }
