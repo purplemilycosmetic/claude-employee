@@ -11,10 +11,17 @@
         "source": "github",
         "repo": "thedotmack/claude-mem"
       }
+    },
+    "openai-codex": {
+      "source": {
+        "source": "github",
+        "repo": "openai/codex-plugin-cc"
+      }
     }
   },
   "enabledPlugins": {
     "superpowers@claude-plugins-official": true,
-    "claude-mem@thedotmack": true
+    "claude-mem@thedotmack": true,
+    "codex@openai-codex": true
   }
 }
